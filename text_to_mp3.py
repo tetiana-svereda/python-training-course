@@ -43,7 +43,7 @@ def get_audio(_text, _output_file, _lang):
 
 
 if __name__ == '__main__':
-    pdf_to_parse = input('Enter the path to pdf file (blank for pdf_to_parse): ') or 'pdf_to_parse'
+    pdf_to_parse = input('Enter the pdf filename (blank for pdf_to_parse): ') or 'pdf_to_parse'
     print(pdf_to_parse)
     start_page = int(input('Enter the page number of the first page to parse (blank for 0): ') or 0)
     end_page = int(input('Enter the page number of the last page to parse (blank for last page): ') or 0)
